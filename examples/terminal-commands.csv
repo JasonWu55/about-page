@@ -1,0 +1,7 @@
+command,output
+help,"Available commands:\n  whoami       — About me\n  skills       — Tech stack\n  projects     — Project list\n  contact      — Get in touch\n  availability — Work status\n  clear        — Clear terminal\n  echo [text]  — Echo text"
+whoami,"Jason\nMed Informatics @ 輔仁大學 FJU\nFull-Stack Dev Intern"
+skills,"Frontend   : React · Next.js · TypeScript · Tailwind CSS\nBackend    : Node.js · Express · REST API · SQL\nDevOps     : Docker · Nginx · Linux · Cloudflare · aaPanel\nAI / Tools : Claude Code · OpenRouter · AI API · Git"
+contact,"Email   : woowujasonwu@gmail.com\nWebsite : whalin.cc\nGitHub  : github.com/JasonWu55"
+availability,"Status    : Open to internship\nMode      : Hybrid / Remote-first\nSchedule  : Flexible, can arrange around class"
+projects,"1. FJU All-in-One Student Portal\n2. 多人即時知識問答遊戲\n3. Number Rollcall API\n4. AI 輔助題目解析工具\n5. 自架服務與網域部署"

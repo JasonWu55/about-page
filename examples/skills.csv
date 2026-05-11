@@ -1,0 +1,9 @@
+id,title,subtitle,content,category,icon,relatedIds,status,energy
+1,Frontend,React · Next.js,"React.js, Next.js, TypeScript, JavaScript, HTML/CSS, Tailwind CSS, 狀態管理與前後端整合",Frontend,monitor,2;5;6,completed,82
+2,Backend / API,Node.js · Express,"Node.js, Express, REST API, JSON 處理, 錯誤處理, SQL/MySQL 基礎, 驗證流程",Backend,server,1;3,completed,76
+3,DevOps,Docker · Linux,"Linux Server, Docker, Docker Compose, Nginx, aaPanel, Reverse Proxy, SSL/TLS",DevOps,box,2;4,completed,72
+4,AI Tools,Claude · OpenRouter,"Claude Code, Cursor, Copilot, OpenRouter, AI API 串接, AI Agent 規劃, MCP Server",AI,bot,1;5,in-progress,88
+5,Git / GitHub,Version Control,"Git, GitHub, 版本控制, Branch 管理, PR flow, 專案管理",Tools,git-branch,1;2;6,completed,90
+6,Languages,JS · TS · Python,"JavaScript, TypeScript, Python, Shell Script, 能快速適應新語言",Languages,code2,1;2,completed,84
+7,Cloudflare,DNS · Proxy,"Cloudflare DNS 管理, Proxy 設定, SSL 自動化, 基礎安全設定, 多網域管理",Infrastructure,globe,3,completed,68
+8,Scripting,Automation,"Shell Script, Tampermonkey, Browser 自動化, DOM Parsing, 流程自動化設計",Scripting,terminal,4;6,in-progress,74

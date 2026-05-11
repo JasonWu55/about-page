@@ -1,0 +1,5 @@
+period,role,org,desc,tags,icon,accent
+2023 – Present,製播組 Technical Crew,SITCON · COSCUP · MOPCON,參與台灣技術社群大型活動製播工作，熟悉跨團隊溝通、直播技術、現場流程協調與即時問題處理。在高壓活動現場中累積快速排錯、溝通協作與責任分工經驗。,Live Streaming|A/V Tech|Cross-team Collab,microphone,indigo
+2023 – Present,Self-Directed Projects,Personal / Side Projects,"自主規劃並開發多個 Web/API/自動化相關專案，從需求發想、PRD 撰寫、系統設計到部署維運獨立完成。管理多個自有網域（whalin.cc、lkto.cc、whl.tw）。",Node.js|Docker|Nginx|Cloudflare,server,violet
+2023 – Present,AI Tooling & Automation,Side Exploration,"探索 AI 工具整合至開發流程，包含 Claude Code、OpenRouter API 串接、Tampermonkey 腳本、AI 輔助答題工具與 MCP Server 規劃概念。",Claude Code|OpenRouter|LLM API|Automation,code,cyan
+2023 – Present,B.S. Student,輔仁大學 Fu Jen Catholic University,"醫學資訊與創新應用學士學位學程，學習方向涵蓋醫學資訊、資訊系統應用、Web/App 開發、資料處理、AI 應用與創新服務設計。",Med Informatics|Web Dev|AI Applications,graduation-cap,emerald

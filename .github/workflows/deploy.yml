@@ -1,0 +1,49 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build
+        env:
+          NEXT_PUBLIC_GOOGLE_SHEET_CSV: ${{ secrets.NEXT_PUBLIC_GOOGLE_SHEET_CSV }}
+          NEXT_PUBLIC_TERMINAL_CSV_URL: ${{ secrets.NEXT_PUBLIC_TERMINAL_CSV_URL }}
+          NEXT_PUBLIC_SITE_CONFIG_CSV: ${{ secrets.NEXT_PUBLIC_SITE_CONFIG_CSV }}
+          NEXT_PUBLIC_SKILLS_CSV: ${{ secrets.NEXT_PUBLIC_SKILLS_CSV }}
+          NEXT_PUBLIC_EXPERIENCE_CSV: ${{ secrets.NEXT_PUBLIC_EXPERIENCE_CSV }}
+        run: npm run build
+
+      - run: touch out/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out/
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
